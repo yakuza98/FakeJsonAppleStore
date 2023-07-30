@@ -1,0 +1,14 @@
+<mat-toolbar class="main__toolbar">
+  <mat-toolbar-row>
+    <div class="toolbar no-select" routerLink="">
+      <img [src]="logo.logo" alt="logo image" class="toolbar__logo">
+      <h1 class="toolbar__title">AStore</h1>
+    </div>
+    <span class="example"></span>
+    <div class="toolbar no-select">
+      <button mat-flat-button routerLink="" routerLinkActive="active" class="toolbar__button">Main</button>
+      <button mat-flat-button routerLink="products" routerLinkActive="active" class="toolbar__button">Products</button>
+      <button mat-flat-button routerLink="basket" routerLinkActive="active" class="toolbar__button">Buy<mat-icon>shopping_cart_checkout</mat-icon></button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

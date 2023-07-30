@@ -1,0 +1,40 @@
+.example {
+  flex: 1 1 auto;
+}
+.main__toolbar {
+  background-color: #b291d2;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    height: 70px;
+  }
+  &__title{
+    color: #000000;
+    font-weight: 700;
+    transition: all 0.5s linear;
+  }
+  &__title:hover{
+    color: #000000;
+    transform: translateX(-60px);
+    font-size: 18px;
+    opacity: 0;
+  }
+  &__button {
+    transition: all 0.2s linear;
+  }
+  &__button:hover{
+    background-color: #a877d7;
+  }
+}
+.no-select {
+  cursor: pointer;
+  user-select: none;
+  gap: 10px;
+  align-items: end;
+}
+.active {
+  background-color: #764a96;
+}

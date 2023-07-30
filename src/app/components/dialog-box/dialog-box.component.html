@@ -1,0 +1,56 @@
+<form [formGroup]="gialogForm" (ngSubmit)="onSubmit()"
+  class="dialog__window">
+  <mat-form-field class="dialog__window-full" appearance="outline">
+    <mat-label>Product title</mat-label>
+    <input
+      type="text"
+      formControlName="title"
+      matInput>
+  </mat-form-field>
+  <mat-form-field class="dialog__window-full" appearance="outline">
+    <mat-label>Product price</mat-label>
+    <input
+      type="number"
+      formControlName="price"
+      matInput>
+  </mat-form-field>
+  <mat-form-field class="dialog__window-full" appearance="outline">
+    <mat-label>Product year</mat-label>
+    <input
+      type="number"
+      formControlName="year"
+      matInput>
+  </mat-form-field>
+  <mat-form-field class="dialog__window-full" appearance="outline">
+    <mat-label>Product chip</mat-label>
+    <input
+      type="text"
+      formControlName="chip"
+      matInput>
+  </mat-form-field>
+  <mat-form-field class="dialog__window-full" appearance="outline">
+    <mat-label>Product SSD</mat-label>
+    <input
+      type="text"
+      formControlName="SSD"
+      matInput>
+  </mat-form-field>
+  <mat-form-field class="dialog__window-full" appearance="outline">
+    <mat-label>Product memory</mat-label>
+    <input
+      type="text"
+      formControlName="memory"
+      matInput>
+  </mat-form-field>
+  <mat-form-field class="dialog__window-full" appearance="outline">
+    <mat-label>Product display</mat-label>
+    <input
+      type="text"
+      formControlName="display"
+      matInput>
+  </mat-form-field>
+  <div class="dialog__window-actions">
+    <button mat-flat-button type="submit">{{isNew ? 'Add product' : 'Edit product' }}</button>
+    <button mat-flat-button (click)="onNoClick()" type="button">Cancel</button>
+  </div>
+</form>

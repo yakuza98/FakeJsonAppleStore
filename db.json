@@ -1,0 +1,57 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Macbook Air",
+      "price": 1200,
+      "year": 2020,
+      "image": "https://www.freepnglogos.com/uploads/macbook-png/macbook-cleanmymac-the-best-mac-cleanup-app-for-macos-get-32.png",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "",
+        "memory": "",
+        "display": ""
+      }
+    },
+    {
+      "id": 2,
+      "title": "Macbook Pro ",
+      "price": 1800,
+      "year": 2020,
+      "image": "https://www.freepnglogos.com/uploads/macbook-png/macbook-cleanmymac-the-best-mac-cleanup-app-for-macos-get-32.png",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "",
+        "memory": "",
+        "display": ""
+      }
+    },
+    {
+      "id": 3,
+      "title": "Macbook Intel",
+      "price": 700,
+      "year": 2019,
+      "image": "https://www.freepnglogos.com/uploads/macbook-png/macbook-cleanmymac-the-best-mac-cleanup-app-for-macos-get-32.png",
+      "configuration": {
+        "chip": "Intel",
+        "SSD": "16",
+        "memory": "256",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 4,
+      "title": "das",
+      "price": 12312,
+      "year": 123123,
+      "image": "https://www.freepnglogos.com/uploads/macbook-png/macbook-cleanmymac-the-best-mac-cleanup-app-for-macos-get-32.png",
+      "configuration": {
+        "chip": "asasdas",
+        "SSD": "sdasdas",
+        "memory": "asdasdas",
+        "display": "adasdas"
+      }
+    }
+  ],
+  "basket": []
+}

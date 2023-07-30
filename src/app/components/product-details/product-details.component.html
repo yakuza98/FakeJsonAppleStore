@@ -1,0 +1,20 @@
+v<div class="container">
+  <mat-card>
+    <mat-card-header>
+      <img mat-cart-image [src]="product.image" alt="laptop" class="product__image">
+      <p><b>Year:</b> {{ product.year }}</p>
+      <p><b>Chip:</b> {{ product.configuration.chip }}</p>
+      <p><b>SSD:</b> {{ product.configuration.SSD}}</p>
+      <p><b>SSD:</b> {{ product.configuration.display}}</p>
+      <p><b>Memory:</b> {{ product.configuration.memory}}</p>
+      <p><b>Price:</b> {{ product.price | currency }}</p>
+    </mat-card-header>
+    <mat-card-content>
+      <p><b>Description:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aperiam dicta eius fugit illum ipsam modi nam nisi odit officiis quaerat quam recusandae reiciendis rem soluta temporibus, voluptate voluptatem.</p>
+    </mat-card-content>
+
+    <mat-card-actions class="card__actions">
+      <button class="card__button" mat-button>BUY</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
